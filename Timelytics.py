@@ -1,21 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-
-
-
-# In[2]:
-
-
-
-
-
-# In[6]:
-
-
 import streamlit as st
 import pandas as pd
 import pickle
@@ -88,10 +70,3 @@ if submit_button:
     # Make prediction
     prediction = model.predict(input_data)
     st.success(f'Expected delivery time: {round(prediction[0], 2)} hours')
-
-
-# In[ ]:
-
-
-
-
