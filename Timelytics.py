@@ -46,7 +46,7 @@ with open('delivery_time_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Define the Streamlit app
-st.title('Delivery Time Prediction App')
+st.title('Timelytics Delivery Time-Prediction')
 st.write('Enter order details to predict expected delivery time.')
 
 # Input form with three fields
